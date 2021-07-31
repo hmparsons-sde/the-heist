@@ -8,7 +8,7 @@ namespace the_heist
     {
         public string Name { get; set; }
         public List<TeamMember> CrewMembers { get; private set; } = new List<TeamMember>();
-        public int CumulativeSkill { get; private set; }
+        public int CumulativeSkill { get; private set; } // cannot be modified by users, but user can see the results of its value.
 
         public Crew()
         {

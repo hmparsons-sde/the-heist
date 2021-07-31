@@ -7,7 +7,7 @@ namespace the_heist
         static void Main(string[] args)
         {
             Console.WriteLine("Plan Your Heist!");
-            var heist = new Heist();
+            var heist = new Heist(); // executes everything we've set up in other classes.
         }
     }
 }
