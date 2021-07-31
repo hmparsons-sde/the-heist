@@ -8,7 +8,7 @@ namespace the_heist
 {
     class Heist
     {
-        public int BankDifficulty { get; private set; } 
+        public int BankDifficulty { get; private set; }
         private int _luckValue { get; set; } // luck value will remain hidden from user.
 
         public Heist()
